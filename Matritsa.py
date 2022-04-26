@@ -18,8 +18,8 @@ def Chiqar(matrix):            #chiqarish
     for i in matrix:
         print(*i)
     
-def Yasa(x,y):
-    k = [[int(input(f"son{i}: ")) for i in range(1,y+1)] for _ in range(x)]   #Matritsa yaratish
+def Yasa(x,y):                 # Matritsa elementlarini kiritish
+    k = [[int(input(f"son{i}: ")) for i in range(1,y+1)] for _ in range(x)]   
     return k
 
 def Kopaytir(m1,n1,m2,n2,A,B):   #Matritsalar ko'paytmasi
@@ -34,7 +34,7 @@ def Kopaytir(m1,n1,m2,n2,A,B):   #Matritsalar ko'paytmasi
         matrix.append(temp2)
     return matrix
 
-def Qosh(m1,n1,A,B):
+def Qosh(m1,n1,A,B):            #Matritsalar yeg'indi
     matrix = []
     for i in range(m1):
         temp = []
@@ -43,7 +43,7 @@ def Qosh(m1,n1,A,B):
         matrix.append(temp)
     return matrix
 
-def Ayir(m1,n1,A,B):
+def Ayir(m1,n1,A,B):            #Matritsalar ayirmasi
     matrix = []
     for i in range(m1):
         temp = []
@@ -52,7 +52,7 @@ def Ayir(m1,n1,A,B):
         matrix.append(temp)
     return matrix
 
-def Songa_kop(m1,n1,A,k):
+def Songa_kop(m1,n1,A,k):       #Matritsani songa ko'paytirish
     matrix = []
     for i in range(m1):
         temp = []
@@ -61,7 +61,7 @@ def Songa_kop(m1,n1,A,k):
         matrix.append(temp)
     return matrix
 
-while True:
+while True:                      #Asosiy qism
     key = int(input("""
     Matritsalar ustida amallar.
 
