@@ -1,2 +1,2 @@
 # Matritsa
-Bu repositoriyda  jamlangan.
+Bu repositoriyda Matritsaga oid bo'lgan barcha amallar jamlangan.
